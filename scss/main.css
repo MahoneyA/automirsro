@@ -859,12 +859,12 @@
 header {
   position: relative;
   align-items: center;
-  display: inline-flex;
+  display: flex;
   height: 6.875rem;
   background-color: #030000;
   width: 100%; }
   header .lang {
-    margin-left: 35vh; }
+    margin-left: 3vh; }
     header .lang img {
       height: 50px;
       width: 50px; }
@@ -887,9 +887,11 @@ header {
     position: absolute;
     right: 10rem;
     font-family: Montserrat,sans-serif;
-    font-weight: 400; }
+    font-weight: 400;
+    align-content: flex-start; }
   header .contact i {
-    margin-left: 1.5rem; }
+    margin-left: 1.5rem;
+    margin-top: 1rem; }
   header .social-icons {
     position: absolute;
     right: 5rem;
@@ -1106,7 +1108,7 @@ header {
     margin: 10vh 0; }
     .wrapper-contact .contact_1 .desc-text {
       text-align: center;
-      font-size: 2.8vh; }
+      font-size: 2 vh; }
 
 .fotorama {
   padding-top: 15vh;
